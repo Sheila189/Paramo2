@@ -18,7 +18,7 @@ public class ControlarCamara : MonoBehaviour
     {
         if (cuerpoJugador == null)
         {
-            cuerpoJugador = GameObject.Find("PlayerArmature").transform;
+            cuerpoJugador = GameObject.Find("Personaje1").transform;
         }
 
         Cursor.lockState = CursorLockMode.Locked;
