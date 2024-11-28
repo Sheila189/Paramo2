@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Obs
   - Crash
+  - CinemachineTarget
+  - armaImpacto
+  - golpeImpacto
   layers:
   - Default
   - TransparentFX

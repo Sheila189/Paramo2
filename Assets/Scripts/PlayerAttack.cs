@@ -7,10 +7,11 @@ public class PlayerAttack : MonoBehaviour
     public float attackRange = 2f;
     public int attackDamage = 1;
     public Transform attackPoint;
+    public float attackRadius = 0.5f;
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1")) 
+        if (Input.GetButtonDown("Fire1"))
         {
             Attack();
         }
@@ -18,23 +19,17 @@ public class PlayerAttack : MonoBehaviour
 
     void Attack()
     {
-        RaycastHit hit;
-        Debug.DrawRay(attackPoint.position, attackPoint.forward * attackRange, Color.red, 1.0f); 
-
-        if (Physics.Raycast(attackPoint.position, attackPoint.forward, out hit, attackRange))
+        Collider[] hitColliders = Physics.OverlapSphere(attackPoint.position, attackRadius);
+        foreach (var hitCollider in hitColliders)
         {
-            Debug.Log("Raycast hit: " + hit.transform.name); 
+            Debug.Log("Hit: " + hitCollider.name);
 
-            ZombieHealth zombie = hit.transform.GetComponent<ZombieHealth>();
+            ZombieHealth zombie = hitCollider.GetComponent<ZombieHealth>();
             if (zombie != null)
             {
-                Debug.Log("Hit a zombie!"); 
+                Debug.Log("Hit a zombie!");
                 zombie.TakeDamage(attackDamage);
             }
-        }
-        else
-        {
-            Debug.Log("Raycast did not hit anything"); 
         }
     }
 }

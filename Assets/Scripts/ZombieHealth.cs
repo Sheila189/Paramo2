@@ -4,25 +4,19 @@ using UnityEngine;
 
 public class ZombieHealth : MonoBehaviour
 {
-    public int maxHealth = 3;
+    public int maxHealth = 5;
     private int currentHealth;
-
-    private CharacterController characterController;
 
     void Start()
     {
         currentHealth = maxHealth;
-        characterController = GetComponent<CharacterController>();
-
-        if (characterController == null)
-        {
-            Debug.LogError("CharacterController no está presente en el objeto " + gameObject.name);
-        }
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        Debug.Log("Zombie health: " + currentHealth);
+
         if (currentHealth <= 0)
         {
             Die();
@@ -31,9 +25,8 @@ public class ZombieHealth : MonoBehaviour
 
     void Die()
     {
-        // Agregar una animación para cuando este morido.
-        characterController.enabled = false; 
-        gameObject.SetActive(false);
-        Debug.Log(gameObject.name + " ha muerto.");
+        // Aquí puedes agregar animaciones de muerte y desactivar el zombie
+        Debug.Log("Zombie muerto");
+        Destroy(gameObject);
     }
 }

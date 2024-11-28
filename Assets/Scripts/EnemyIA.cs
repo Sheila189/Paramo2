@@ -10,6 +10,9 @@ public class EnemyIA : MonoBehaviour
     private NavMeshAgent agent;
     private float lastAttackTime = 0f;
 
+    // Reference to the DamageEffect script
+    public DamageEffect damageEffect;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -48,6 +51,11 @@ public class EnemyIA : MonoBehaviour
     {
         Debug.Log("El enemigo ataca al jugador.");
         
+        // Call the TakeDamage method on the DamageEffect script
+        if (damageEffect != null)
+        {
+            damageEffect.TakeDamage();
+        }
     }
 
     private void OnDrawGizmosSelected()
