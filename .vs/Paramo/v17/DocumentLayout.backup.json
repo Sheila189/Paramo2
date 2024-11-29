@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|c:\\users\\kohak\\onedrive\\documentos\\github\\paramo\\assets\\scripts\\pachi\\logicanpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|c:\\users\\kohak\\onedrive\\documentos\\github\\paramo\\assets\\scripts\\pachi\\logicabarradevida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicabarradevida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicanpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicanpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicapersonaje1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicapersonaje1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicaesferas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicaesferas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicaseguircamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicaseguircamara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\activararmapersonaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\activararmapersonaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicaobjetivosesferas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +31,16 @@
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicapies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicapersonaje1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicapersonaje1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicacabeza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicacabeza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\activararmapersonaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\activararmapersonaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,19 +55,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LogicaNPC.cs",
-              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaNPC.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaNPC.cs",
-              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaNPC.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaNPC.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAAmAAAAAAAAAA==",
+              "Title": "LogicaBarraDeVida.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaBarraDeVida.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaBarraDeVida.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaBarraDeVida.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaBarraDeVida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T20:57:30.38Z",
+              "WhenOpened": "2024-11-29T18:10:41.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LogicaSeguirCamara.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaSeguirCamara.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaSeguirCamara.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaSeguirCamara.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaSeguirCamara.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:32:50.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogicaEsferas.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaEsferas.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaEsferas.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaEsferas.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaEsferas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T23:07:05.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogicaNPC.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaNPC.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaNPC.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaNPC.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaNPC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T20:57:30.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LogicaPies.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaPies.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaPies.cs",
@@ -63,25 +111,35 @@
               "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaPies.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T18:59:43.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T18:59:43.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "LogicaObjetivosEsferas.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaObjetivosEsferas.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaObjetivosEsferas.cs",
               "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaObjetivosEsferas.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaObjetivosEsferas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T18:36:56.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T18:36:56.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "ActivarArmaPersonaje.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\ActivarArmaPersonaje.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ActivarArmaPersonaje.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\ActivarArmaPersonaje.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ActivarArmaPersonaje.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T06:04:06.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LogicaPersonaje1.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
@@ -89,12 +147,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T17:53:15.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T17:53:15.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "LogicaCabeza.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaCabeza.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaCabeza.cs",
@@ -106,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CameraControl.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\CameraControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraControl.cs",
@@ -115,18 +172,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T06:33:26.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ActivarArmaPersonaje.cs",
-              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\ActivarArmaPersonaje.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ActivarArmaPersonaje.cs",
-              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\ActivarArmaPersonaje.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ActivarArmaPersonaje.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T06:04:06.206Z"
             }
           ]
         }
