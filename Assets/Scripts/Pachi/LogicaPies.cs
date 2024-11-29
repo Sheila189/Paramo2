@@ -19,7 +19,10 @@ public class LogicaPies : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        logicaPersonaje1.puedoSaltar = true;
+        if (other.tag == "piso")
+        {
+            logicaPersonaje1.puedoSaltar = true;
+        }
     }
 
     private void OnTriggerExit(Collider other)

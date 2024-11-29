@@ -7,7 +7,7 @@ public class LogicaPersonaje1 : MonoBehaviour
     public float velocidadMovimiento = 5.0f;
     public float velocidadRotacion = 200.0f;
 
-    private Animator anim;
+    public Animator anim;
     public float x, y;
 
     public Rigidbody rb;
@@ -20,6 +20,8 @@ public class LogicaPersonaje1 : MonoBehaviour
     public bool estoyAtacando;
     public bool avanzoSolo;
     public float impulsoDeGolpe = 10f;
+
+    public int nivelPersonaje;
 
     void Start()
     {

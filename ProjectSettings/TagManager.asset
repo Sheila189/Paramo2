@@ -9,6 +9,8 @@ TagManager:
   - CinemachineTarget
   - armaImpacto
   - golpeImpacto
+  - objetivo
+  - piso
   layers:
   - Default
   - TransparentFX
