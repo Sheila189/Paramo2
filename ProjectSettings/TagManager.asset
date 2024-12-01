@@ -11,6 +11,8 @@ TagManager:
   - golpeImpacto
   - objetivo
   - piso
+  - items
+  - zombie
   layers:
   - Default
   - TransparentFX

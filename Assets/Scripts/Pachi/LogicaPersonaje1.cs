@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LogicaPersonaje1 : MonoBehaviour
 {
@@ -23,13 +24,28 @@ public class LogicaPersonaje1 : MonoBehaviour
 
     public int nivelPersonaje;
 
+    // Variables para la vida
+    public int vidaMax = 50;
+    public float vidaActual;
+    public Image imagenBarraVida;
+
+    public LogicaPersonaje1 logicaPersonaje1;
+
     void Start()
     {
+        logicaPersonaje1 = GameObject.FindGameObjectWithTag("Player").GetComponent<LogicaPersonaje1>(); if (logicaPersonaje1 == null)
+        {
+            Debug.LogError("No se encontró un objeto con la etiqueta 'Player' que tenga el componente LogicaPersonaje1.");
+        }
+
         puedoSaltar = false;
         anim = GetComponent<Animator>();
 
         velocidadInicial = velocidadMovimiento;
         velocidadAgachado = velocidadMovimiento * 0.5f;
+
+        // Inicializar vida
+        vidaActual = vidaMax;
     }
 
     void FixedUpdate()
@@ -86,6 +102,16 @@ public class LogicaPersonaje1 : MonoBehaviour
         {
             EstoyCayendo();
         }
+
+        // Revisar la vida cada frame
+        RevisarVida();
+
+        // Verificar si la vida es 0 o menor
+        if (vidaActual <= 0)
+        {
+            // Agregar el efecto de muerte
+            gameObject.SetActive(false);
+        }
     }
 
     public void EstoyCayendo()
@@ -108,5 +134,13 @@ public class LogicaPersonaje1 : MonoBehaviour
     public void DejoDeAvanzar()
     {
         avanzoSolo = false;
+    }
+
+    public void RevisarVida()
+    {
+        if (imagenBarraVida != null)
+        {
+            imagenBarraVida.fillAmount = vidaActual / vidaMax;
+        }
     }
 }
