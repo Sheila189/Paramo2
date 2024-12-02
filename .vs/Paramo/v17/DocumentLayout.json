@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|c:\\users\\kohak\\onedrive\\documentos\\github\\paramo\\assets\\scripts\\pachi\\logicaenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicaenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\damageeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damageeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,7 +11,11 @@
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicapersonaje1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|c:\\users\\kohak\\onedrive\\documentos\\github\\paramo\\assets\\scripts\\logicageneralenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|c:\\users\\kohak\\onedrive\\documentos\\github\\paramo\\assets\\scripts\\pachi\\logicaenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicaenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\logicageneralenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\logicageneralenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LogicaEnemigo.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaEnemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaEnemigo.cs",
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Assets\\Scripts\\LogicaGeneralEnemigo.cs",
               "ViewState": "AgIAAHkAAAAAAAAAAAAgwJ8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T05:39:43.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T05:39:43.922Z"
             },
             {
               "$type": "Document",
@@ -68,31 +67,30 @@
               "RelativeToolTip": "Assets\\Scripts\\AgarrarArmas.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAqwFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T03:35:04.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T03:35:04.169Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DamageEffect.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\DamageEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DamageEffect.cs",
               "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\DamageEffect.cs",
               "RelativeToolTip": "Assets\\Scripts\\DamageEffect.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T01:02:52.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LogicaPersonaje1.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
               "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAgwMYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAQwM0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T17:53:15.638Z",
               "EditorCaption": ""

@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; // Para reiniciar la escena
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class DamageEffect : MonoBehaviour
@@ -43,10 +43,14 @@ public class DamageEffect : MonoBehaviour
             }
         }
 
-        // Reiniciar la escena si la vida del jugador es 0
+        // Verificar si la vida del jugador es 0, y reiniciar la escena
         if (logicaPersonaje.vidaActual <= 0)
         {
-            RestartScene();
+            // Reiniciar la escena solo si el personaje sigue activo
+            if (logicaPersonaje.gameObject.activeSelf)
+            {
+                RestartScene();
+            }
         }
 
         isDamaged = false;

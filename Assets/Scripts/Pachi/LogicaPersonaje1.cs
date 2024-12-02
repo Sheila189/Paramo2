@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LogicaPersonaje1 : MonoBehaviour
 {
@@ -130,9 +131,15 @@ public class LogicaPersonaje1 : MonoBehaviour
         // Verificar si la vida es 0 o menor
         if (vidaActual <= 0)
         {
-            // Agregar el efecto de muerte
-            gameObject.SetActive(false);
+            // Aquí reiniciamos la escena
+            RestartScene();
         }
+    }
+
+    void RestartScene()
+    {
+        // Reinicia la escena actual
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void EstoyCayendo()
