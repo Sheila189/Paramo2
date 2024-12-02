@@ -4,13 +4,14 @@ using UnityEngine.AI;
 public class EnemyIA : MonoBehaviour
 {
     public Transform player;
-    public float chaseRange = 10f; 
-    public float attackRange = 2f; 
-    public float attackCooldown = 2f; 
+    public float chaseRange = 10f;
+    public float attackRange = 2f;
+    public float attackCooldown = 2f;
+    public int dañoBase = 10; // Daño base del enemigo
     private NavMeshAgent agent;
     private float lastAttackTime = 0f;
 
-    // Reference to the DamageEffect script
+    // Referencia al script DamageEffect del jugador
     public DamageEffect damageEffect;
 
     void Start()
@@ -50,12 +51,19 @@ public class EnemyIA : MonoBehaviour
     void Attack()
     {
         Debug.Log("El enemigo ataca al jugador.");
-        
-        // Call the TakeDamage method on the DamageEffect script
+
+        // Llamar a TakeDamage con daño base
         if (damageEffect != null)
         {
-            damageEffect.TakeDamage();
+            damageEffect.TakeDamage(CalcularDaño());
         }
+    }
+
+    int CalcularDaño()
+    {
+        // Aquí puedes añadir lógica para variar el daño según condiciones
+        // Por ejemplo, más daño si el enemigo está enfurecido
+        return dañoBase;
     }
 
     private void OnDrawGizmosSelected()

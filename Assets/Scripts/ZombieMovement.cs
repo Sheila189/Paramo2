@@ -3,10 +3,11 @@ using UnityEngine;
 public class ZombieMovement : MonoBehaviour
 {
     public Transform player;
-    public float detectionRange = 20f;  
+    public float detectionRange = 20f;
     public float chaseSpeed = 2f;
-    public float attackRange = 1.5f; 
-    public float damageInterval = 1f;  
+    public float attackRange = 1.5f;
+    public float damageInterval = 1f;
+    public int dañoBase = 5; // Daño base del zombie
 
     private CharacterController characterController;
     private Vector3 direction;
@@ -48,7 +49,12 @@ public class ZombieMovement : MonoBehaviour
 
             if (distanceToPlayer <= attackRange && Time.time - lastDamageTime > damageInterval)
             {
-                player.GetComponent<DamageEffect>().TakeDamage();
+                // Llamar a TakeDamage con daño dinámico
+                if (player.GetComponent<DamageEffect>() != null)
+                {
+                    player.GetComponent<DamageEffect>().TakeDamage(CalcularDaño());
+                }
+
                 lastDamageTime = Time.time;
             }
         }
@@ -56,5 +62,11 @@ public class ZombieMovement : MonoBehaviour
         {
             direction = Vector3.zero;
         }
+    }
+
+    int CalcularDaño()
+    {
+        // Aquí puedes añadir lógica personalizada para variar el daño
+        return dañoBase;
     }
 }

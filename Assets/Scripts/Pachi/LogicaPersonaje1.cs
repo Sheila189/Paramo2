@@ -1,10 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class LogicaPersonaje1 : MonoBehaviour
 {
+    public bool conArma;
+
     public float velocidadMovimiento = 5.0f;
     public float velocidadRotacion = 200.0f;
 
@@ -31,9 +32,14 @@ public class LogicaPersonaje1 : MonoBehaviour
 
     public LogicaPersonaje1 logicaPersonaje1;
 
+    // Referencia al material para cambiar el color
+    private Renderer jugadorRenderer;
+    private Color colorOriginal;
+
     void Start()
     {
-        logicaPersonaje1 = GameObject.FindGameObjectWithTag("Player").GetComponent<LogicaPersonaje1>(); if (logicaPersonaje1 == null)
+        logicaPersonaje1 = GameObject.FindGameObjectWithTag("Player").GetComponent<LogicaPersonaje1>();
+        if (logicaPersonaje1 == null)
         {
             Debug.LogError("No se encontró un objeto con la etiqueta 'Player' que tenga el componente LogicaPersonaje1.");
         }
@@ -46,6 +52,13 @@ public class LogicaPersonaje1 : MonoBehaviour
 
         // Inicializar vida
         vidaActual = vidaMax;
+
+        // Configurar el color original del jugador
+        jugadorRenderer = GetComponent<Renderer>();
+        if (jugadorRenderer != null)
+        {
+            colorOriginal = jugadorRenderer.material.color;
+        }
     }
 
     void FixedUpdate()
@@ -69,8 +82,16 @@ public class LogicaPersonaje1 : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Return) && puedoSaltar && !estoyAtacando)
         {
-            anim.SetTrigger("golpeo");
-            estoyAtacando = true;
+            if (conArma)
+            {
+                anim.SetTrigger("golpeo2");
+                estoyAtacando = true;
+            }
+            else
+            {
+                anim.SetTrigger("golpeo");
+                estoyAtacando = true;
+            }
         }
 
         anim.SetFloat("VelX", x);
@@ -123,7 +144,6 @@ public class LogicaPersonaje1 : MonoBehaviour
     public void DejeDeGolpear()
     {
         estoyAtacando = false;
-        //avanzoSolo = false;
     }
 
     public void AnanzoSolo()
@@ -142,5 +162,37 @@ public class LogicaPersonaje1 : MonoBehaviour
         {
             imagenBarraVida.fillAmount = vidaActual / vidaMax;
         }
+    }
+
+    // Método para recibir daño
+    public void RecibirDaño(float daño)
+    {
+        vidaActual -= daño;
+        if (vidaActual < 0)
+        {
+            vidaActual = 0;
+        }
+        Debug.Log("Vida actual después de daño: " + vidaActual);  // Añadir esta línea para depurar
+        RevisarVida();
+
+        // Cambiar color a rojo temporalmente
+        CambiarColorTemporal(Color.red, 2f);
+    }
+
+    // Cambiar color temporalmente
+    void CambiarColorTemporal(Color color, float duracion)
+    {
+        if (jugadorRenderer != null)
+        {
+            StopAllCoroutines();
+            StartCoroutine(CambiarColorCoroutine(color, duracion));
+        }
+    }
+
+    IEnumerator CambiarColorCoroutine(Color color, float duracion)
+    {
+        jugadorRenderer.material.color = color;
+        yield return new WaitForSeconds(duracion);
+        jugadorRenderer.material.color = colorOriginal;
     }
 }

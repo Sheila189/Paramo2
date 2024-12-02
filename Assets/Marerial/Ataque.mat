@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PolygonZombie_Texture_01_A
+  m_Name: Ataque
   m_Shader: {fileID: -6465566751694194690, guid: 171902f6490be574896e89d1a0845d0a,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: 7f2790332154c79459a9115b8faf30dd, type: 2}
-  m_ModifiedSerializedProperties: 2
+  m_Parent: {fileID: 2100000, guid: 5545c89bb0a75004bbe217d139a97e89, type: 2}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 6
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -24,27 +24,21 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_558D75A3:
-        m_Texture: {fileID: 2800000, guid: 822402f846727b24890cc7d5f5430675, type: 3}
+    - Texture2D_162D0D5A:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - Texture2D_CD41C4EC:
-        m_Texture: {fileID: 2800000, guid: ab3c9c81285cc4443b3b62ab3ba16da7, type: 3}
+    - _MainTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _Parallax: 0.02
-    - _QueueControl: 0
-    - _Smoothness: 0.2
+    - Vector1_34B15A85: 1
     m_Colors:
-    - Color_8948C9C: {r: 1, g: 0, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - Color_8948C9C: {r: 0.3113208, g: 0.08664116, b: 0.08664116, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3166787988656833934
+--- !u!114 &8738521382973930497
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
