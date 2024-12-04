@@ -31,6 +31,12 @@ public class LogicaEnemigo : MonoBehaviour
             RecibirDaño(dañoPuño);
         }
 
+        // Nuevo: Si choca con el vehículo
+        if (other.gameObject.tag == "vehiculo")
+        {
+            RecibirDaño(5); // Le quita 5 de vida
+        }
+
         if (vidaActual <= 0)
         {
             Morir();

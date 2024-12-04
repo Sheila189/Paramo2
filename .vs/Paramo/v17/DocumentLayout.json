@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|c:\\users\\kohak\\onedrive\\documentos\\github\\paramo\\assets\\scripts\\mostrarcontroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pausarjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausarjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|c:\\users\\kohak\\onedrive\\documentos\\github\\paramo\\assets\\scripts\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\mostrarcontroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mostrarcontroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|c:\\users\\kohak\\onedrive\\documentos\\github\\paramo\\assets\\scripts\\entrarauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicaenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicaenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\entrarauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entrarauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicapersonaje1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\pachi\\logicaenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pachi\\logicaenemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\assets\\scripts\\agarrararmas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697A251C-BC8B-2651-0BEA-DF8D8157E25E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\agarrararmas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -50,48 +58,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MostrarControles.cs",
-              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\MostrarControles.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MostrarControles.cs",
-              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\MostrarControles.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MostrarControles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "menuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\menuPrincipal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\menuPrincipal.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\menuPrincipal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\menuPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T05:10:31.681Z",
+              "WhenOpened": "2024-12-04T17:08:10.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SalirAuto.cs",
-              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\SalirAuto.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SalirAuto.cs",
-              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\SalirAuto.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SalirAuto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PausarJuego.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\PausarJuego.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PausarJuego.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\PausarJuego.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PausarJuego.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T04:48:57.167Z"
+              "WhenOpened": "2024-12-04T16:30:10Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VehicleController.cs",
-              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\VehicleController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VehicleController.cs",
-              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\VehicleController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VehicleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T04:39:17.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EntrarAuto.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\EntrarAuto.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EntrarAuto.cs",
@@ -99,12 +96,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EntrarAuto.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwCMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T04:37:36.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T04:37:36.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "LogicaSeguirCamara.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaSeguirCamara.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaSeguirCamara.cs",
@@ -116,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "VehicleInteraction.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\VehicleInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\VehicleInteraction.cs",
@@ -128,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CameraControl.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\CameraControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraControl.cs",
@@ -140,19 +136,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "LogicaEnemigo.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaEnemigo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaEnemigo.cs",
               "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaEnemigo.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pachi\\LogicaEnemigo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T05:43:45.052Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MostrarControles.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\MostrarControles.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MostrarControles.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\MostrarControles.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MostrarControles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T05:10:31.681Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\VehicleController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\VehicleController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VehicleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:39:17.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SalirAuto.cs",
+              "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\SalirAuto.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SalirAuto.cs",
+              "ToolTip": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\SalirAuto.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SalirAuto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T04:48:57.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "AgarrarArmas.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\AgarrarArmas.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AgarrarArmas.cs",
@@ -164,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "LogicaPersonaje1.cs",
               "DocumentMoniker": "C:\\Users\\kohak\\OneDrive\\Documentos\\GitHub\\Paramo\\Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pachi\\LogicaPersonaje1.cs",
