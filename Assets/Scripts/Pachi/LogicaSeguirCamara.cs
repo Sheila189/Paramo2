@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class LogicaSeguirCamara : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        transform.forward = Camera.main.transform.forward;
+        if (Camera.main != null)
+        {
+            transform.forward = Camera.main.transform.forward;
+        }
+        else
+        {
+            Debug.LogError("No se encontró la cámara principal (Main Camera) en la escena.");
+        }
     }
 }

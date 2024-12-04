@@ -58,7 +58,7 @@ public class LogicaObjeto : MonoBehaviour
                 logicaPersonaje1.velocidadInicial += 5;
                 break;
             case 4: // Aumenta salto - coca
-                logicaPersonaje1.fuerzaDeSalto += 10;
+                logicaPersonaje1.fuerzaDeSalto += 3;
                 break;
             case 5: // Disminuye velocidad - pollo
                 logicaPersonaje1.velocidadInicial -= 2;
